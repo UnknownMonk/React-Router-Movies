@@ -39,6 +39,7 @@ function MovieDetails({ movie }) {
       <Link to={`/movies/${id}`}>
         <h2>{title}</h2>
       </Link>
+
       <div className="movie-director">
         Director: <em>{director}</em>
       </div>
